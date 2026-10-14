@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 431c03f31586c3a4b864c4a768643303
+guid: bd927fc880f16c841b41281fafd0c7af
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -125,9 +125,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: GROUND
+  - name: Ground
     originalName: 
-    pivot: {x: 0.42424244, y: -1.4117647}
+    pivot: {x: 0.45762712, y: -0.5714286}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     customData: 
@@ -135,9 +135,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 99
-      height: 17
-    spriteID: 747b641d73e53144882acb80364764e3
+      width: 59
+      height: 28
+    spriteID: 53c7efb6495d223459bf81b090cd507a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -151,25 +151,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 2931182369
+      value0: 2024493761
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: GROUND
+    name: Ground
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: GROUND
+    - name: Ground
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 22
-        y: 24
-        width: 99
-        height: 17
-      spriteId: 747b641d73e53144882acb80364764e3
+        x: 21
+        y: 16
+        width: 59
+        height: 28
+      spriteId: 53c7efb6495d223459bf81b090cd507a
     linkedCells: []
     tileCells: []
     tileSetIndex: 0
@@ -178,5 +178,5 @@ ScriptedImporter:
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
-  previousTextureSize: {x: 128, y: 32}
-  canvasSize: {x: 128, y: 64}
+  previousTextureSize: {x: 128, y: 64}
+  canvasSize: {x: 96, y: 64}
