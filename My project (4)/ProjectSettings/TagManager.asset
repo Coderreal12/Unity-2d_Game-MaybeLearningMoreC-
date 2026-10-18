@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - Kill
+  - Coin
   layers:
   - Default
   - TransparentFX
