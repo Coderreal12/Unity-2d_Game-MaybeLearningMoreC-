@@ -14,3 +14,8 @@ While in the middle I had some hiccups I am very proud of the result as this is 
 A Picture of in game 
 
 <img width="1208" height="690" alt="image" src="https://github.com/user-attachments/assets/d0e64ccf-db69-456e-ace0-d91826ceb371" />
+
+
+What happens if you win:
+
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/fa9d075b-9b3e-4bfb-9396-0517ee7aa1a7" />
