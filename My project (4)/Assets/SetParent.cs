@@ -8,7 +8,7 @@ public class SetParent : MonoBehaviour
 
     [SerializeField] private GameObject player;
     [SerializeField] private GameObject platform;
-
+    [SerializeField] private GameObject Defualt;
 
 
     private void Update()
@@ -16,12 +16,9 @@ public class SetParent : MonoBehaviour
         SendRay(ref plattouch);
         
         //If Touching the platform
-        if(plattouch)
-        {
-            Debug.Log("I am touching the platfomr");
-            //Parent the player to the platfomrm
-ParentPlayer(ref player, ref platform);
-        }
+        
+ParentPlayer(ref player, ref platform, plattouch);
+        
         
 
 
@@ -33,11 +30,23 @@ ParentPlayer(ref player, ref platform);
         plattouch = Physics2D.Raycast(transform.position, Vector2.down, -.2f, LayerMask.GetMask("Platform"));
     }
 
-    private void ParentPlayer(ref GameObject player, ref GameObject platform)
+    private void ParentPlayer(ref GameObject player, ref GameObject platform, bool plattouch)
     {
-        player.transform.SetParent(platform.transform, true);
+        //If touching
+
+        if(plattouch)
+        {
+            //Parrent player to platform
+                player.transform.SetParent(platform.transform, true);
+        }
+        else
+        {
+            //Parent Player to Defualt
+                player.transform.SetParent(Defualt.transform, true);
+        }
     }
 
+   
 
 
 }

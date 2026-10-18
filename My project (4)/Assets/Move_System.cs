@@ -62,5 +62,10 @@ player.AddForce(Vector2.up * JumpHeight);
     }
 
 
+    public void change(int change)
+    {
+        speed = change;
+    }
+
 
 }
