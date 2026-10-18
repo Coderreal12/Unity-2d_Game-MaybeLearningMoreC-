@@ -65,11 +65,10 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.5.10f1\Editor\Data\BCLExtensions\TargetingPacks\netstandard2.1\analyzers\dotnet\roslyn4.0\cs\System.Text.Json.SourceGeneration.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Ground_Collder.cs" />
-    <Compile Include="Assets\Platform_Move.cs" />
+    <Compile Include="Assets\SetParent.cs" />
+    <Compile Include="Assets\Move_System.cs" />
     <Compile Include="Assets\Follow_Player.cs" />
-    <Compile Include="Assets\Movement.cs" />
-    <Compile Include="Assets\Walk.cs" />
+    <Compile Include="Assets\Move_Platform.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
